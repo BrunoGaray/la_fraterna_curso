@@ -49,7 +49,7 @@ header .overlay {
     font-family: "Jolly";
     src: url(fonts/Jolly_Bold.ttf) format("truetype");
 }
-.la-fraterna-nav-title { 
+.la-fraterna-nav-title {
     cursor: pointer;
     font-family: "Jolly", Verdana, Tahoma;
     color: inherit;
@@ -62,12 +62,15 @@ header .overlay {
     width: 100px;
 }
 
+#cultura {
+    background-color: #2222;
+}
 .parallax {
     /* The image used */
     background-image: url("../img/portfolio/fullsize/risotto2.JPG");
 
     /* Set a specific height */
-    height: 650px; 
+    height: 650px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
