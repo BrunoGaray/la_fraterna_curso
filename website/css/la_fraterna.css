@@ -66,10 +66,16 @@ header .overlay {
     background-image: url("../img/portfolio/cultura.JPG");
 
         /* Create the parallax scrolling effect */
-  
+
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+}
+#contact {
+  background-color: rgba(240, 95, 64, 1);
+}
+#contacto {
+  border-style: dotted;
 }
 .parallax {
     /* The image used */
