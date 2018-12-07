@@ -26,9 +26,29 @@ a,
   z-index: 1;
 }
 
+.overlayCultura {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+}
+
 #header-fraterna .overlay {
   top: 0;
   left: 0;
+}
+
+#cultura.parallax {
+  background-image: url("../img/cultura.jpg");
+}
+
+#cultura h2 {
+  color: #e8703b;
+}
+
+#cultura p {
+  color: #fffffc;
 }
 
 #contact.parallax {
