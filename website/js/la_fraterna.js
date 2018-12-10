@@ -13,6 +13,7 @@ var getUrlParameter = function getUrlParameter(sParam) {
   }
 };
 
+
 $(document).ready(function(){
 
   var form = getUrlParameter('form');
@@ -21,3 +22,6 @@ $(document).ready(function(){
     $('#div-consulta').removeClass('d-none');
   }
 });
+
+ScrollReveal().reveal('.headline', { delay: 600 });
+ScrollReveal().reveal('.headline2', { delay: 700 });

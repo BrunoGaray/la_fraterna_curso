@@ -44,7 +44,7 @@ header .container {
     font-family: "Moon Flower Bold";
     src: url(fonts/Moon_Flower_Bold.ttf) format("truetype");
 }
-.la-fraterna-nav-title { 
+.la-fraterna-nav-title {
     cursor: pointer;
     font-family: "Moon Flower Bold", Verdana, Tahoma;
     color: inherit;

@@ -44,11 +44,22 @@ a,
 }
 
 #cultura h2 {
-  color: #e8703b;
+  color: #fffffc;
+  font-size: 40px;
+}
+
+#cultura h4 {
+  color: #fffffc;
+  font-size: 30px;
 }
 
 #cultura p {
   color: #fffffc;
+}
+
+#cultura img {
+  width: 300px;
+  height: 200px;
 }
 
 #contact.parallax {
