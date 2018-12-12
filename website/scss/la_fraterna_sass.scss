@@ -33,13 +33,6 @@ a,
   opacity: 0.5;
   z-index: 1;
 }
-.overlayCultura {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background-color: black;
-  opacity: 0.5;
-}
 
 #header-fraterna {
   .overlay {
@@ -63,11 +56,22 @@ a,
   }
   p {
     color: $color4;
+    padding-right: 3em;
+    padding-left: 3em;
   }
   img {
-  width: 300px;
-  height: 200px;
+  width: 100%;
   }
+  ul {
+  color: $color4;
+  padding-right: 10em;
+  padding-left: 10em;
+  }
+  .container {
+  background-color: $color1-transparent;
+
+  }
+
 }
 
 #contact.parallax {

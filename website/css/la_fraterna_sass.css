@@ -26,14 +26,6 @@ a,
   z-index: 1;
 }
 
-.overlayCultura {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background-color: black;
-  opacity: 0.5;
-}
-
 #header-fraterna .overlay {
   top: 0;
   left: 0;
@@ -55,11 +47,22 @@ a,
 
 #cultura p {
   color: #fffffc;
+  padding-right: 3em;
+  padding-left: 3em;
 }
 
 #cultura img {
-  width: 300px;
-  height: 200px;
+  width: 100%;
+}
+
+#cultura ul {
+  color: #fffffc;
+  padding-right: 10em;
+  padding-left: 10em;
+}
+
+#cultura .container {
+  background-color: rgba(51, 24, 50, 0.5);
 }
 
 #contact.parallax {

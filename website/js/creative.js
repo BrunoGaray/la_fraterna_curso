@@ -68,6 +68,16 @@
     delay: 200,
     scale: 0
   });
+  sr.reveal('.headline', {
+    delay: 600,
+    scale: 0,
+    reset: true,
+  });
+  sr.reveal('.headline2', {
+    delay: 700,
+    scale: 0,
+    reset: true
+  });
   sr.reveal('.sr-contact-2', {
     delay: 400,
     scale: 0

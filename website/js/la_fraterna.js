@@ -24,4 +24,4 @@ $(document).ready(function(){
 });
 
 ScrollReveal().reveal('.headline', { delay: 600 });
-ScrollReveal().reveal('.headline2', { delay: 700 });
+ScrollReveal().reveal('.headline2', { delay: 700});
